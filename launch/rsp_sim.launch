@@ -1,0 +1,25 @@
+<launch>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="output" default="screen"/>
+    
+    <!-- Launch gazebo -->
+    <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+        <!--arg name="paused" value="true"/>
+        <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+        <arg name="gui" value="true"/>
+        <arg name="recording" value="false"/>
+        <arg name="debug" value="false"/>
+        <arg name="verbose" value="true"/-->
+    </include>
+    
+    <!-- Robot State Publisher -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="$(var output)">
+        <param name="robot_description" value="$(command 'xacro $(find-pkg-share my_bot)/robot_description/robot.urdf.xacro')"/>
+    </node>
+    
+    <!-- Spawn robot in Gazebo -->
+    <node name="spawn_entity" pkg="gazebo_ros" exec="spawn_entity.py"
+      args="-topic robot_description -entity my_robot" output="screen" />
+    
+
+</launch>
