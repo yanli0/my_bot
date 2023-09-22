@@ -1,0 +1,77 @@
+[0.023s] Invoking command in '/home/yanli/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/yanli/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yanli/dev_ws/src/my_bot/install/my_bot
+[0.145s] -- The C compiler identification is GNU 9.4.0
+[0.223s] -- The CXX compiler identification is GNU 9.4.0
+[0.233s] -- Check for working C compiler: /usr/bin/cc
+[0.337s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.340s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.464s] -- Detecting C compile features
+[0.464s] -- Detecting C compile features - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++
+[0.585s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.586s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Detecting CXX compile features
+[0.714s] -- Detecting CXX compile features - done
+[0.719s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.978s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.053s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.179s] -- Configured cppcheck include dirs: 
+[1.180s] -- Configured cppcheck exclude dirs and/or files: 
+[1.187s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.187s] -- Configured cpplint exclude dirs and/or files: 
+[1.189s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.191s] -- Added test 'lint_cmake' to check CMake code style
+[1.193s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.201s] -- Added test 'uncrustify' to check C / C++ code style
+[1.201s] -- Configured uncrustify additional arguments: 
+[1.203s] -- Added test 'xmllint' to check XML markup files
+[1.207s] -- Configuring done
+[1.210s] -- Generating done
+[1.211s] -- Build files have been written to: /home/yanli/dev_ws/src/my_bot/build/my_bot
+[1.215s] Invoked command in '/home/yanli/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/yanli/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yanli/dev_ws/src/my_bot/install/my_bot
+[1.219s] Invoking command in '/home/yanli/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/yanli/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[1.288s] Invoked command in '/home/yanli/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/yanli/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[1.351s] Invoking command in '/home/yanli/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/yanli/dev_ws/src/my_bot/build/my_bot
+[1.365s] -- Install configuration: ""
+[1.366s] -- Execute custom install script
+[1.367s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.382s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[1.398s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/my_bot_controllers.yaml
+[1.414s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/camera_depth.xacro
+[1.430s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/camera_pi.xacro
+[1.447s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/colors.xacro
+[1.462s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/example_robot.urdf.xacro
+[1.478s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.493s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.509s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[1.523s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.536s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.550s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.566s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.580s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp_real.launch.py
+[1.593s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp_sim.launch
+[1.607s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp_sim.launch.py
+[1.621s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.635s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/my_world.world
+[1.649s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.663s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.677s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.691s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.705s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.721s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.737s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.756s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.770s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.784s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.797s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.813s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.830s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.844s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.858s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.875s] -- Symlinking: /home/yanli/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[1.892s] Invoked command in '/home/yanli/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanli/ws/install/ros2controlcli:/home/yanli/ws/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/yanli/dev_ws/src/my_bot/build/my_bot
